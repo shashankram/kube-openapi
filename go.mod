@@ -27,6 +27,8 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
+replace k8s.io/gengo/v2 => github.com/shashankram/gengo/v2 v2.0.0-20250514214217-7f42ea5be748
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
